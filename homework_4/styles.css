@@ -1,0 +1,131 @@
+
+body {
+    color:black;
+    font-size:20px;
+    background-attachment:scroll;
+    background-repeat: no-repeat;}
+
+h1 {
+    font-family:serif;
+    text-align: center;
+    color: black;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    font-size: 30px;}
+
+h2 {
+    font-family:roboto;
+    font-weight:lighter;
+    text-align:center;
+    color:black;
+    word-spacing:1px;
+    letter-spacing: 0.5px;
+    font-size:30px;
+    padding-top:60px;}
+
+h3 {
+    font-family:roboto;
+    font-weight:lighter;
+    text-align:center;
+    color:black;
+    word-spacing:1px;
+    letter-spacing: 0.5px;
+    font-size:18px;
+    padding-top:60px;}
+
+.homepagepic {
+    margin:220px;
+    display: inline;}
+
+
+ul.navbar {
+    list-style-type: none;
+    margin-left: 110px;
+    margin-right: 100px;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;}
+
+.Intro {
+    width:800px;
+    margin-left:300px;}
+
+a:link {
+    color:black;}
+
+a:visited {
+    color: black;}
+
+a:hover {
+    color: #FFCF2E;
+    text-decoration: underline;
+    background-color:white;}
+
+a:active {
+    color: #FFCF2E;
+    text-decoration: underline;
+    background-color:#EAF7FF;}
+
+.productpic {
+    margin-left: 450px;
+    margin-top: 70px;}
+
+
+.column1of2 {
+    width:50px;
+    float:left;
+    padding-top:50px;
+    line-height: 2.0;
+    margin-left:150px;}
+
+.column1of3 {
+    width:140px;
+    float:left;
+    padding-top:50px;
+    line-height: 2.0;
+    margin-left:50px;}
+
+.column2of3 {
+    width:540px;
+    float:left;
+    padding-top: 65px;
+    line-height: 2.0;
+    margin-left: 90px;}
+
+
+.column3of3 {
+    width:340px;
+    float:left;
+    padding-top: 0px;
+    line-height: 1.5;
+    margin-left: 0px;}
+
+.button {
+    background-color: #464646;
+    width:300px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 6px;}
+
+.form{
+    width:440px;
+    padding-top: 70px;
+    line-height: 1.5;
+    margin-left: 550px;}
+
+
+
+
+/*three methods for embracing white space are applied through the use of
+padding, margin, full-size backgroud image, etc.*/
+
+/*Implement your on-paper wireframes’ designs with code by using container elements 
+such as divs, and position and floating properties.*/
+
