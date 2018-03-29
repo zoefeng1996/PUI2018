@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flip Stitch Pillow</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href = "Assets/styles.css" type="text/css" rel="stylesheet" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="Assets/test.js" ></script>
+  </head>
+  
+  <body>
+    <!-- Page title -->
+    <hgroup>
+      <h1 id="top">Flip Stitch Pillow</h1> 
+    </hgroup>
+
+     <!-- Nav Bar -->
+    <nav> 
+      <ul class="navbar"> 
+        <li><a href="Index.html">HOME</a></li>
+        <li><a href="PRODUCT.html">PRODUCT</a></li>
+        <li><a href="lOGIN.html">LOGIN</a></li>
+        <li><a href="shoppingbag.html">SHOPPING BAG</a></li> 
+        <li><a href="#">Wishlist</a></li>
+      </ul>
+    </nav>
+
+ 
+  <!-- Product Pictures -->
+  <div class="column2of3">
+        <img data-image="white" class = "active" src="Assets/pillowpic/1.jpg" alt="">
+        <img data-image="blue" src="Assets/pillowpic/2.jpg" alt="">
+        <img data-image="red" src="Assets/pillowpic/3.jpg" alt="">
+        <img data-image="purple" src="Assets/pillowpic/4.jpg" alt="">
+        <img data-image="black" src="Assets/pillowpic/5.jpg" alt="">
+  </div>
+
+   <!-- Product Title -->
+  <div class="column3of3">
+    <div class="product title">
+      <h2 id=name>Jacquard Round pillow<br>$40.00</br></h2> 
+    </div>
+
+    <!-- Product Detail -->
+    <div class="product-detail">
+
+          <!-- Product color choose -->
+            <span>Color:</span>
+            <div id=color class="color-choose">
+              <div>
+                <input data-image="white" type="radio" id="white" name="color" value="white" checked>
+                <label for="white"><span></span></label>
+              </div>
+              <div>
+                <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+                <label for="blue"><span></span></label>
+              </div>
+              <div>
+                <input data-image="red" type="radio" id="red" name="color" value="red">
+                <label for="red"><span></span></label>
+              </div>
+              <div>
+                <input data-image="purple" type="radio" id="purple" name="purple" value="purple">
+                <label for="purple"><span></span></label>
+              </div>
+              <div>
+                <input data-image="black" type="radio" id="black" name="black" value="black">
+                <label for="black"><span></span></label>
+              </div>
+            </div>
+
+          </div> 
+
+          <div class="product-description">
+            <!-- Product shape choose -->
+            <span> Shape: </span>
+            <form>
+              <select id="select-shape">
+                <option value="Round">Round</option>
+                <option value="Square">Square</option>
+                <option value="Dog">Dog</option>
+                <option value="Bunny">Bunny</option>
+              </select>
+            </form>
+          </div>
+
+          <div class="product-description">
+          <!-- Product quantity choose -->
+             <span>Qty:</span>
+              <form>
+              <select id="select-qty">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </form>
+          </div>
+
+        <!-- Add to cart -->
+        <button class="button" onclick="addToBag()">Add to bag</button><br><button class="button" onclick="addToWish()">Add to Wishlist</br></button>
+
+ <!-- Similar items -->
+
+<div class="slideshow-container">
+<span>Similar Items (click on the dot to view carousel)</span>
+
+ <!-- First similar item in carousel -->
+<div class="mySlides fade">
+  <img src="Assets/similaritems/1.jpg" style="width:100%">
+  <div class="text">Bed Pillow</div>
+</div>
+
+<!-- Second similar item in carousel -->
+<div class="mySlides fade">
+  <img src="Assets/similaritems/2.jpg" style="width:100%">
+  <div class="text">Couch Pillow</div>
+</div>
+
+<!-- Third similar item in carousel -->
+<div class="mySlides fade">
+  <img src="Assets/similaritems/3.jpg" style="width:100%">
+  <div class="text">Floor Pillow</div>
+</div>
+
+<!-- Previous/Next -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<!-- Carousel dots indication -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+    </div>
+  </body>
+</html>
+
+
