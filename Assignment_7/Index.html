@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="Assets/CSS/homepagestyle.css" rel="stylesheet" type="text/css" />
+
+   <!--   navigation dot    -->
+	<style type="text/css">
+	#thing {
+		width:20px;
+		height:20px;
+		border-radius:16px;
+		background:#FFF;
+	}
+	</style>
+</head>
+
+<body>
+
+    <!--   navigation dot circular motion cycle  -->
+
+	<div id="thing" data-0="left[cos]:20%;top[sin]:20%;" data-10000="left:80%;top:80%;"></div>
+
+	<!--   JS animation- circular motion  -->
+	<script type="text/javascript" src="Assets/JS/skrollr.min.js"></script>
+	<script type="text/javascript">
+	skrollr.init({
+		easing: {
+			sin: function(p) {
+				return (Math.sin(p * Math.PI * 1 - Math.PI/2) + 1) / 2;
+			},
+			cos: function(p) {
+				return (Math.cos(p * Math.PI * 1 - Math.PI/2) + 1) / 2;
+			},
+		},
+		render: function(data) {
+			//Loop
+			if(data.curTop === data.maxTop) {
+				this.setScrollTop(0, true);
+			}
+		}
+	});
+	</script>
+
+    <!--   navigation titles/pages -->
+    <div id=s1><img src="Assets/Images/face.png" height="70" width="70" ></div>
+	<h1 id=s2><a href="step01/step01.html">Step 01</a></h1>
+	<h1 id=s3><a href="step02/step02.html">Step 02</a></h1>
+	<h1 id=s4><a href="step03/step03.html">Step 03</a></h1>
+
+	<!--   Title/Introductory text -->
+	<p id=coverintro> 3 Steps to start UI/UX Design </p>
+
+</body>
+
+</html>

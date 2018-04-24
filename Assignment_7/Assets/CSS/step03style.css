@@ -1,0 +1,136 @@
+
+  /* Media Queries */
+
+@media screen and (min-width: 736px) and (orientation: landscape){
+
+  /* Background color applied to all pages */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color:#E5877C;
+  font-size:24px;
+}
+
+  /* map size */
+#map {
+  height: 80%;
+  width:100%;}
+
+.left {
+    float:left;}
+
+  /* list of museums */
+.right {
+  width:80%;
+  float:left;
+  padding-top:10px;
+  line-height: 2.0;
+  margin-left:500px;}
+
+  /* list of museums */
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding-top:50px;
+}
+
+li {
+  color:#fff;
+}
+
+  /* go back button style */
+.backtohome {
+  height: 50px;
+  width: 150px;
+  background-color: #fff;
+  opacity:0.8;
+  display: inline;
+  float:left;
+  border-radius:2%;
+  line-height:50px;
+  text-align:center;
+  font-size:20px;
+  color:#E5877C;
+  margin-top:80px;
+  margin-left:600px;
+  margin-bottom:100px;
+}
+
+/* Color of navigation title links */
+a:link {
+    color:#E5877C;
+  text-decoration: none}
+
+a:active{
+  color:#E5877C;
+  text-decoration:none;
+}
+
+a:visited {
+    color: #FFCF2E;
+  text-decoration: none}
+
+a:hover {
+    color: #FFCF2E;
+  text-decoration: none}
+
+  /* Media Queries */
+
+@media screen and (max-width: 736px) {
+
+  /* Background color applied to all pages */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color:#E5877C;
+  font-size:24px;
+}
+
+  /* map size */
+#map {
+  height: 50%;
+  width:50%;}
+
+.left {
+    float:left;}
+
+  /* list of museums */
+.right {
+  width:50%;
+  float:left;
+  padding-top:10px;
+  line-height: 2.0;
+  margin-left:500px;}
+
+  /* list of museums */
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding-top:auto;
+}
+
+li {
+  color:#fff;
+}
+
+/* Color of navigation title links */
+a:link {
+    color:#E5877C;
+  text-decoration: none}
+
+a:active{
+  color:#E5877C;
+  text-decoration:none;
+}
+
+a:visited {
+    color: #FFCF2E;
+  text-decoration: none}
+
+a:hover {
+    color: #FFCF2E;
+  text-decoration: none}

@@ -1,0 +1,358 @@
+
+  /* Media Queries */
+
+@media screen and (min-width: 636px) and (orientation: landscape){
+
+ /* Background color applied to all pages */
+body {
+	background-color:#E5877C;
+	color:#fff;
+	font-size:20px;
+}
+
+h1 {
+	color:#fff;
+}
+
+  /* UI principles five bubbles*/
+#ui {
+	color:#FFF;
+	font-size:30px;
+	padding-top:40px;
+	padding-left:90px;
+}
+
+.dot {
+  height: 200px;
+  width: 200px;
+  background-color: #fff;
+  opacity:0.8;
+  border-radius: 50%;
+  display: inline-block;
+  text-align:center;
+  line-height: 200px;
+  font-size:35px;
+  color:#E5877C;
+}
+
+  /* UI principles - hover to zoom in*/
+.dot:hover {
+    -ms-transform: scale(1.3); 
+    -webkit-transform: scale(1.3);     
+    transform: scale(1.3); 
+}
+
+.dot .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    height:5px;
+    background-color: none;
+    color: #fff;
+    text-align: center;
+    font-size:16px;
+    display:inline;
+    border-radius: 6px;
+    padding: -10px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 40%;
+    margin-left: -50px;
+}
+
+  /* UI principles - hover to show hidden text*/
+.dot:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top:50px;
+}
+
+li {
+    display: inline;
+    margin:20px;
+}
+
+  /* UX process and methods - inspiration*/
+.ux {
+	color:#FFF;
+	font-size:30px;
+	padding-top:210px;
+	padding-left:90px;
+}
+
+.inspiration{
+	color:#FFF;
+	font-size:24px;
+	padding-top:10px;
+	padding-left:90px;
+}
+
+  /* UX process and methods - ideation*/
+.ideation{
+	color:#FFF;
+	font-size:24px;
+	padding-top:40px;
+	padding-left:90px;
+}
+  /* UX process and methods - implementation*/
+.implementation{
+	color:#FFF;
+	font-size:24px;
+	padding-top:50px;
+	padding-left:90px;
+}
+
+  /* UX process and methods - boxes*/
+.square {
+  height: 220px;
+  width: 220px;
+  background-color: #fff;
+  opacity:0.8;
+  display: inline-block;
+  border-radius:2%;
+  text-align:center;
+  line-height: 200px;
+  font-size:24px;
+  color:#E5877C;
+}
+
+.backtohome {
+  height: 50px;
+  width: 150px;
+  background-color: #fff;
+  opacity:0.8;
+  display: inline-block;
+  border-radius:2%;
+  line-height:50px;
+  text-align:center;
+  font-size:20px;
+  color:#E5877C;
+  margin-left:590px;
+  margin-top:60px;
+}
+
+/* Individual page of each method */
+.left {
+    float:left;
+    padding-top:130px;
+    line-height: 2.0;
+    margin-left:150px;}
+
+.right {
+	  width:500px;
+    float:left;
+    padding-top:80px;
+    line-height: 2.0;
+    margin-left:50px;}
+
+ .back {
+ 	padding-top:620px;
+ 	padding-left:630px;
+ 	text-decoration: underline;
+ 	font-size:25px;
+ }
+
+ /* Color of navigation title links */
+a:link {
+    color:#E5877C;
+  text-decoration: none}
+
+a:active{
+  color:#E5877C;
+  text-decoration:none;
+}
+
+a:visited {
+    color: #FFCF2E;
+  text-decoration: none}
+
+a:hover {
+    color: #FFCF2E;
+  text-decoration: none}
+
+
+  /* Media Queries */
+
+@media screen and (max-width: 636px) {
+
+body {
+  background-color:#E5877C;
+  color:#fff;
+  font-size:20px;
+}
+
+h1 {
+  color:#fff;
+}
+
+  /* UI principles five bubbles*/
+#ui {
+  color:#FFF;
+  font-size:30px;
+  padding-top:40px;
+  padding-left:90px;
+}
+
+.dot {
+  height: 50%;
+  width: 50%
+  background-color: #fff;
+  opacity:0.8;
+  border-radius: 50%;
+  display: inline-block;
+  text-align:center;
+  line-height: 200px;
+  font-size:35px;
+  color:#E5877C;
+}
+
+  /* UI principles - hover to zoom in*/
+.dot:hover {
+    -ms-transform: scale(1.3); 
+    -webkit-transform: scale(1.3);     
+    transform: scale(1.3); 
+}
+
+.dot .tooltiptext {
+    visibility: hidden;
+    width: 50%;
+    height:50%;
+    background-color: none;
+    color: #fff;
+    text-align: center;
+    font-size:16px;
+    display:inline;
+    border-radius: 6px;
+    padding: -10px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 40%;
+    margin-left: -50px;
+}
+
+  /* UI principles - hover to show hidden text*/
+.dot:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top:50px;
+}
+
+li {
+    display: inline;
+    margin:20px;
+}
+
+  /* UX process and methods - inspiration*/
+.ux {
+  color:#FFF;
+  font-size:30px;
+  padding-top:210px;
+  padding-left:90px;
+}
+
+.inspiration{
+  color:#FFF;
+  font-size:24px;
+  padding-top:10px;
+  padding-left:90px;
+}
+
+  /* UX process and methods - ideation*/
+.ideation{
+  color:#FFF;
+  font-size:24px;
+  padding-top:40px;
+  padding-left:90px;
+}
+  /* UX process and methods - implementation*/
+.implementation{
+  color:#FFF;
+  font-size:24px;
+  padding-top:50px;
+  padding-left:90px;
+}
+
+  /* UX process and methods - boxes*/
+.square {
+  height: 50%;
+  width: 50%;
+  background-color: #fff;
+  opacity:0.8;
+  display: inline-block;
+  border-radius:2%;
+  text-align:center;
+  line-height: 200px;
+  font-size:1em;
+  color:#E5877C;
+}
+
+.backtohome {
+  height: 50px;
+  width: 150px;
+  background-color: #fff;
+  opacity:0.8;
+  display: inline-block;
+  border-radius:2%;
+  line-height:50px;
+  text-align:center;
+  font-size:20px;
+  color:#E5877C;
+  margin-left:590px;
+  margin-top:60px;
+}
+
+/* Individual page of each method */
+.left {
+    width:50%;
+    height:50%;
+    float:left;
+    padding-top:130px;
+    line-height: 2.0;
+    margin-left:150px;}
+
+.right {
+    width:50%px;
+    float:left;
+    padding-top:80px;
+    line-height: 2.0;
+    margin-left:50px;}
+
+ .back {
+  padding-top:620px;
+  padding-left:630px;
+  text-decoration: underline;
+  font-size:25px;
+ }
+/* Color of navigation title links */
+a:link {
+    color:#E5877C;
+	text-decoration: none}
+
+a:active{
+	color:#E5877C;
+	text-decoration:none;
+}
+
+a:visited {
+    color: #FFCF2E;
+	text-decoration: none}
+
+a:hover {
+    color: #FFCF2E;
+	text-decoration: none}
+
